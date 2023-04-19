@@ -12,14 +12,10 @@ public final class MeteorologicalStation {
 	}
 
 	public static void main(String[] args) {
-		/**
-		 *TODO: Instantiate an Injector with the ProductionModule
-		 *TODO: Instantiate the class that needs the injection.
-		 */
+
 		Injector injector = Guice.createInjector(new ProductionModule());
 		
 		IMeteorologicalStationGUI msgui = injector.getInstance(IMeteorologicalStationGUI.class);
-//				new MeteorologicalStationGUI();
 		msgui.show();
 	}
 }

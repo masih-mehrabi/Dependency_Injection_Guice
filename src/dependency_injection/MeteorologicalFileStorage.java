@@ -11,8 +11,7 @@ import java.util.Date;
 /**
  * MeteorologicalFileStorage can save the meteorological data to a text file
  */
-//TODO 2: Create interface IMeteorologicalFileStorage and make this class implement it
-//Note: the interface should include the same method signatures as the ones below
+
 
 public class MeteorologicalFileStorage implements IMeteorologicalFileStorage {
 	private int temperature;

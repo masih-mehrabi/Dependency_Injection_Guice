@@ -27,13 +27,11 @@ public class MeteorologicalStationGUI implements IMeteorologicalStationGUI {
 	private JPanel panel;
 	private GridLayout layout;
 
-	// TODO 3: Inject the controller
 	@Inject
 	private MeteorologicalStationController controller;
 
 	public MeteorologicalStationGUI() {
-		// TODO 2: Remove the explicit instantiation
-//		controller = new MeteorologicalStationController(this);
+
 		frame = new JFrame("MeteoStation");
 		temperatureLabel = new JLabel("Temperature:");
 		temperatureTextField = new JTextField();
